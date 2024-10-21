@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import Home from "./home";
+
 
 
 const Dashboard = () => {
-    const [user, setUser] = useState(null);
+    const [, setUser] = useState(null);
 
     useEffect(() => {
         const loggedInUser = localStorage.getItem("user");
