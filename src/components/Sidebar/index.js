@@ -1,19 +1,19 @@
 import './index.scss'
 import { useState } from 'react'
 import LogoS from '../../assets/images/1.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faGithub,
-  faFacebook,
-} from '@fortawesome/free-brands-svg-icons'
-import {
-  faHome,
-  faUser,
-  faEnvelope,
-  faSuitcase,
-  faBars,
-  faClose,
-} from '@fortawesome/free-solid-svg-icons'
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+//import {
+  //faGithub,
+ // faFacebook,
+//} from '@fortawesome/free-brands-svg-icons'
+// import {
+//   faHome,
+//   faUser,
+//   faEnvelope,
+//   faSuitcase,
+//   faBars,
+//   faClose,
+// } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {

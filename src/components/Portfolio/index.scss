@@ -4,9 +4,9 @@
     .page-title {
         font-size: 48px;
         margin-bottom: 40px;
-        text-align: left; /* โค้ดนี้จะทำให้ตัวหนังสืออยู่ตรงกลางแนวนอน */
+        text-align: left; 
         color: #333;
-        width: auto; /* ทำให้หัวข้อกินพื้นที่เต็มความกว้าง */
+        width: auto; 
         padding-left: 220px;
         
     }
@@ -56,7 +56,9 @@
         padding-left: 100px;
         margin-left: 0;
     }
-
+.ti{
+    font-size: 20px;
+}
     .project-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

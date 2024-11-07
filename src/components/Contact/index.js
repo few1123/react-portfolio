@@ -32,9 +32,8 @@ const Contact = () => {
             Feel free to reach out to me for any inquiries or opportunities related to Computer Networks 
             or IoT Networks. You can contact me through the following channels:
           </p>
-          <p>Email: [Angkhawee5@gmail.com]</p>
-          <p>Phone: [0971288228]</p>
-          <p>Resume: []</p>
+          <p>Email: Angkhawee5@gmail.com</p>
+          <p>Phone: 0971288228</p>
           <p>I look forward to connecting with you!</p>
         </div>
         <div className="info-map">

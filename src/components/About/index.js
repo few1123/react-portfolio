@@ -32,7 +32,7 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p className='me'>
           I am a 4th-year student with an interest in pursuing a career in Computer Networks and 
           IoT Networks. I have basic skills in these fields and I am eager to gain more knowledge and 
           experience to further develop my career in these areas.

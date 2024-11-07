@@ -77,7 +77,7 @@ const AbilitiesAndProjects = ({ customMessage = "" }) => {
 
 
                 <div className="skills-section left-align">
-                    <h2>Computer Skills</h2>
+                    <h2 className="ti">Computer Skills</h2>
                     <ul>
                         <li>Microsoft Office (MS Word, Excel, and PowerPoint)</li>
                         <li>HTML, CSS, Bootstrap, MySQL, PHP, Flutter, Next.js, React</li>
@@ -86,7 +86,7 @@ const AbilitiesAndProjects = ({ customMessage = "" }) => {
                     </ul>
                 </div>
                 <div className="skills-section left-align">
-                    <h2>Network Skills</h2>
+                    <h2 className="ti">Network Skills</h2>
                     <ul>
                         <li>VLAN Trunk Port: Configuration and management of VLAN trunking</li>
                         <li>VTP (VLAN Trunking Protocol): VLAN management and propagation</li>
@@ -95,12 +95,15 @@ const AbilitiesAndProjects = ({ customMessage = "" }) => {
                     </ul>
                 </div>
                 <div className="skills-section left-align">
-                    <h2>Computer Network System Lab</h2>
+                    <h2 className="ti">Computer Network System Lab</h2>
                     <li>
-                        การออกแบบเครือข่ายและการกําหนดที่อยู่ IP ให้กับคอมพิวเตอร์แต่ละเครื่องภายในเครือข่ายเดียวกัน
-                        เลือกช่วงที่อยู่ IP ส่วนตัว กําหนดที่อยู่ IP ซับเน็ตมาสก์ ตั้งค่าเกตเวย์เริ่มต้น กําหนดค่า DNS
-                        การใช้คอมพิวเตอร์เพื่อสื่อสารกับอุปกรณ์อื่น ๆ เช่น สวิตช์ บริดจ์ เราเตอร์ และเกตเวย์ในเครือข่าย
-                        อุปกรณ์แต่ละเครื่อง
+                    Network design and IP address allocation for each computer within the same 
+                    network involve selecting a range of private IP addresses, assigning IP addresses 
+                    and subnet masks, configuring the default gateway, and setting up DNS. This enables 
+                    computers to communicate with other devices, such as switches, bridges, routers, and 
+                    gateways, within the network for effective connectivity and resource sharing. Each 
+                    device is assigned a unique address and configuration to ensure smooth communication 
+                    within the network.
                     </li>
                    
                 </div>
