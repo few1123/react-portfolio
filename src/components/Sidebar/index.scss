@@ -48,9 +48,9 @@
       &:hover {
         color: #ffd700;
 
-        svg {
-          opacity: 0;
-        }
+        // svg {
+        //   opacity: 0;
+        // }
 
         &:after {
           opacity: 1;
@@ -96,11 +96,11 @@
       }
     }
 
-    a.active {
-      svg {
-        color: #ffd700;
-      }
-    }
+    // a.active {
+    //   svg {
+    //     color: #ffd700;
+    //   }
+    // }
   }
 
   ul {
@@ -174,9 +174,9 @@
         margin-left: 10PX;
       }
 
-      a svg {
-        opacity: 1 !important;
-      }
+      // a svg {
+      //   opacity: 1 !important;
+      // }
      }
 
      .hamburger-icon,

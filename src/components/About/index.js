@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react'
-import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
+// import {
+//   faAngular,
+//   faCss3,
+//   faGitAlt,
+//   faHtml5,
+//   faJsSquare,
+//   faReact,
+// } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -40,7 +40,7 @@ const About = () => {
           
         </div>
 
-        <div className="stage-cube-cont">
+        {/* <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
@@ -60,8 +60,8 @@ const About = () => {
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
       <Loader type="pacman" />
     </>
