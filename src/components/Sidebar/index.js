@@ -2,18 +2,18 @@ import './index.scss'
 import { useState } from 'react'
 import LogoS from '../../assets/images/1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {
-//   faGithub,
-//  faFacebook,
-// } from '@fortawesome/free-brands-svg-icons'
-// import {
-//   faHome,
-//   faUser,
-//   faEnvelope,
-//   faSuitcase,
-//   faBars,
-//   faClose,
-// } from '@fortawesome/free-solid-svg-icons'
+import {
+  faGithub,
+ faFacebook,
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faHome,
+  faUser,
+  faEnvelope,
+  faSuitcase,
+  faBars,
+  faClose,
+} from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -21,13 +21,13 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      {/* <Link 
+      <Link 
         className="logo"
         to="/"
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
-      </Link> */}
-      {/* <nav className={showNav ? 'mobile-show' : ''}>
+      </Link> 
+       <nav className={showNav ? 'mobile-show' : ''}>
         <NavLink 
           exact="true"
           activeclassname="active"
@@ -64,8 +64,8 @@ const Sidebar = () => {
           color="#ffd700"
           size="3x"
           className='close-icon' />
-      </nav> */}
-      {/* <ul>
+      </nav> 
+      <ul>
         <li>
           <a
             href="https://github.com/few1123"
@@ -98,7 +98,7 @@ const Sidebar = () => {
           icon={faBars}
           color="#ffd700"
           size="3x"
-          className='hamburger-icon' /> */}
+          className='hamburger-icon' />
     </div>
   )
 }
