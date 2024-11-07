@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import LogoTitle from '../../assets/images/k.jpg'
+import LogoTitle from '../../assets/images/k.jpg' // นำเข้ารูปภาพ
 import Logo from './Logo'
 import './index.scss'
 
@@ -56,9 +56,20 @@ const Home = () => {
             />
           </h1>
           <h2>Front End Developer / JavaScript </h2>
-          <Link to="/contact" className="flat-button">
+
+          
+          
+          
+          <Link to="/contact" className="flat-button" style={{ marginRight: '20px'  }}>
             CONTACT ME
           </Link>
+          <Link to="/about" className="flat-button" style={{ marginRight: '20px' }}>
+            About Me
+          </Link>
+          <Link to="/project" className="flat-button" style={{ marginRight: '20px' }}>
+            Projects
+          </Link>
+
         </div>
         <Logo />
       </div>
