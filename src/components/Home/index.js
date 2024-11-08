@@ -66,7 +66,7 @@ const Home = () => {
           <Link to="/about" className="flat-button" style={{ marginRight: '20px' }}>
             About Me
           </Link>
-          <Link to="/project" className="flat-button" style={{ marginRight: '20px' }}>
+          <Link to="/portfolio" className="flat-button" style={{ marginRight: '20px' }}>
             Projects
           </Link>
 
